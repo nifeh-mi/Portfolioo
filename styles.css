@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(bg-image.jpg);
+  color: #fff;
+  font-family: Poppins;
+}
+/* styling for the navigation bar */
+.header a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 80px;
+  text-align: center;
+  float: left;
+  padding: 14px 16px;
+  background-color: black;
+}
+.header a:hover {
+  background-color: #fff;
+  color: #333;
+}
+/* This is the styling for the first part */
+.main {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  background: rgba(102, 172, 105, 0.3);
+}
+.welcome {
+  margin: 15px;
+  text-align: center;
+  padding: 25px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.welcome h1 {
+  margin-bottom: 10px;
+}
+.image {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 25px;
+}
+/* Second part styling */
+.more-intro {
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+}
+.services {
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+}
+.services ul {
+  list-style-type: none;
+}
+/* I might come back to this for a button */
+/* .footer-contact{
+    position: absolute;
+    left: 50%;
+   text-align: center;
+   
+  
+}
+.footer-contact a{
+    text-decoration: none;
+   font-size: 16px;
+   padding: 5px;
+} */
+.footer {
+  background-color: #333;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
